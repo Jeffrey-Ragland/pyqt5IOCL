@@ -94,7 +94,7 @@ class MainPageUI(QMainWindow):
     def load_logo(self):
         pixmap = QPixmap('xymaLogoWhite.png')  
 
-        resized_pixmap = pixmap.scaled(100, 50, aspectRatioMode=1) 
+        resized_pixmap = pixmap.scaled(150, 75, aspectRatioMode=1) 
     
         self.mainpageXymaLogoLabel.setPixmap(resized_pixmap)
         self.mainpageXymaLogoLabel.setScaledContents(True)
@@ -116,18 +116,29 @@ class TestingPageUI(QMainWindow):
         super(TestingPageUI, self).__init__()
         loadUi("testingPage.ui", self)
 
+        self.setStyleSheet("QMainWindow {"
+                           "background-image: url('homepage.png');"  
+                           "background-position: center;"
+                           "}")
+
         self.mainUI = mainUI
         self.testingBackButton.clicked.connect(self.testingGoBack)
+        self.testingLogoutButton.clicked.connect(self.logout)
 
         self.load_logo()
 
     def load_logo(self):
-        pixmap = QPixmap('xymaLogoBlue.png')  
-        self.xymaLogoLabel.setPixmap(pixmap)
-        self.xymaLogoLabel.setScaledContents(True) 
+        pixmap = QPixmap('xymaLogoWhite.png')  
+        resized_pixmap = pixmap.scaled(150, 75, aspectRatioMode=1) 
+    
+        self.XymaLogoLabel.setPixmap(resized_pixmap)
+        self.XymaLogoLabel.setScaledContents(True)
 
     def testingGoBack(self):
        self.mainUI.stackedWidget.setCurrentWidget(self.mainUI.mainPage)
+
+    def logout(self): 
+       self.mainUI.stackedWidget.setCurrentWidget(self.mainUI.loginPage)
 
 class CalibrationPageUI(QMainWindow):
     def __init__(self, mainUI):
