@@ -6,11 +6,6 @@
                     "Temperature": 10.0,
                     "Density": 20.0,
                     "Viscosity": 30.0
-                },
-                {
-                    "Temperature": 70.0,
-                    "Density": 70.0,
-                    "Viscosity": 70.0
                 }
             ],
             "reading2": [
@@ -18,6 +13,57 @@
                     "Temperature": 40.0,
                     "Density": 50.0,
                     "Viscosity": 60.0
+                }
+            ],
+            "reading3": [
+                {
+                    "Temperature": 33.0,
+                    "Density": 33.0,
+                    "Viscosity": 33.0
+                }
+            ],
+            "reading4": [
+                {
+                    "Temperature": 44.0,
+                    "Density": 44.0,
+                    "Viscosity": 44.0
+                }
+            ],
+            "reading5": [
+                {
+                    "Temperature": 55.0,
+                    "Density": 55.0,
+                    "Viscosity": 55.0
+                }
+            ],
+            "reading6": [
+                {
+                    "Temperature": 66.0,
+                    "Density": 66.0,
+                    "Viscosity": 66.0
+                }
+            ],
+            "reading7": [
+                {
+                    "Temperature": 25.0,
+                    "Density": 25.0,
+                    "Viscosity": 25.0
+                }
+            ]
+        },
+        "Trial2": {
+            "reading1": [
+                {
+                    "Temperature": 45.0,
+                    "Density": 45.0,
+                    "Viscosity": 45.0
+                }
+            ],
+            "reading2": [
+                {
+                    "Temperature": 55.0,
+                    "Density": 55.0,
+                    "Viscosity": 55.0
                 }
             ]
         }
