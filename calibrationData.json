@@ -1,0 +1,50 @@
+{
+    "fluid1": {
+        "Trial1": {
+            "reading1": [
+                {
+                    "Temperature": 10.0,
+                    "Density": 20.0,
+                    "Viscosity": 30.0
+                },
+                {
+                    "Temperature": 70.0,
+                    "Density": 70.0,
+                    "Viscosity": 70.0
+                }
+            ],
+            "reading2": [
+                {
+                    "Temperature": 40.0,
+                    "Density": 50.0,
+                    "Viscosity": 60.0
+                }
+            ]
+        }
+    },
+    "fluid2": {
+        "Trial1": {
+            "reading1": [
+                {
+                    "Temperature": 20.0,
+                    "Density": 20.0,
+                    "Viscosity": 20.0
+                }
+            ],
+            "reading2": [
+                {
+                    "Temperature": 30.0,
+                    "Density": 30.0,
+                    "Viscosity": 30.0
+                }
+            ],
+            "reading3": [
+                {
+                    "Temperature": 40.0,
+                    "Density": 40.0,
+                    "Viscosity": 40.0
+                }
+            ]
+        }
+    }
+}
