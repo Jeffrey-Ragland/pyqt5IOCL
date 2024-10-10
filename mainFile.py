@@ -4,6 +4,7 @@ from PyQt5.QtGui import QPixmap
 import sys
 import json
 
+# mac 
 class MainUI(QMainWindow):
     def __init__(self):
         super(MainUI, self).__init__()
