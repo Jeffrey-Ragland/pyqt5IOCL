@@ -5,6 +5,7 @@ import sys
 import json
 
 # mac1
+# hp1
 
 class MainUI(QMainWindow):
     def __init__(self):
